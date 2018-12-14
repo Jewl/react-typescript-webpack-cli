@@ -26,7 +26,8 @@ module.exports = {
                 // 由于此版本与style-loader冲突，故使用MiniCssExtractPlugin的时候
                 // css只能使用require引入，否则无法解析
                 devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
-                'css-loader'
+                'css-loader',
+                'postcss-loader'
             ]
         }, {
             test: /\.(png|svg|jpe?g|gif)$/,

@@ -8,7 +8,8 @@
 		"exclude": [
 			"config/**/*.js",
 			"scripts/*.js",
-			"node_modules/**/*.ts"
+			"node_modules/**/*.ts",
+			"./postcss.config.js"
 		],
 		"include": [
 			"src/**/*.tsx"
